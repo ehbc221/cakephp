@@ -1,0 +1,8 @@
+- Télécharer composer.phar, puis le copier dans le repertoire ou l'on veut créer le projet
+- Dans un terminal, ouvrir ce meme repertoire
+- Taper " php composer.phar create-project --prefer-dist cakephp/app <nom du projet> "
+- Configurer la base de données dans config/app.php
+- Créer sa base de données selon les conventions de nommage de CakePHP 3
+- Générer du code scaffold avec la commande " bin\cake bake all <nom de la table dans la Base de données> "
+- Pour lancer le server, se pointer sur le dossier du projet puis taper : " bin/cake server "
+- 
